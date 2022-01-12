@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from "react";
+import '../styles/dish.css';
 
 export class Flag extends Component{
     render(){
@@ -14,8 +15,8 @@ export class Ingredient extends Component{
     render(){
         return(
             <Fragment>
-                <h1>Ingredientes</h1>
-                <h1>Ingredientes</h1>
+                <h4>Ingredientes</h4>
+                <h4>Ingredientes</h4>
             </Fragment>
         );
     }
@@ -24,7 +25,7 @@ export class Ingredient extends Component{
 class Dish extends Component{
     render(){
         return(
-            <div>
+            <div className="dish">
                 <h1>Platos</h1>
                 <Ingredient/>
             </div>
