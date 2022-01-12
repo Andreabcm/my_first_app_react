@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from "react";
 import '../styles/dish.css';
+import Button from '@mui/material/Button';
 
 export class Flag extends Component{
     render(){
@@ -28,6 +29,7 @@ class Dish extends Component{
             <div className="dish">
                 <h1>Platos</h1>
                 <Ingredient/>
+                <Button variant="contained">Contained</Button>
             </div>
         )
     }
